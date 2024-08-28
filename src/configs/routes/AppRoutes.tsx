@@ -1,17 +1,21 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Login from "../../pages/Login"
+import Home from "../../pages/Home"
+import ListaMercado from "../../components/ListaMercado";
+
 
 const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Home</div>
+      element: <Home />
     },
     {
       path: "/login",
-      element: <div>Login</div>,
+      element: <Login />,
     },
     {
         path: "/listaMercado",
-        element: <div>Lista de compras</div>,
+        element: <ListaMercado />,
       },
 ]);
 
