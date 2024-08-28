@@ -1,12 +1,12 @@
 import ListaMercado from "../components/ListaMercado/index"
 
-function Login(){
+function Lista(){
     return(
-        <div className="container">
-            <h1>Lista de compras</h1>
-            <ListaMercado />
-        </div> 
+    <div className="container">
+        <h1>Lista de compras</h1>
+        <ListaMercado />
+    </div> 
     )
 }
 
-export default Login;
+export default Lista;
